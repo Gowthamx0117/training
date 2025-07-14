@@ -1,5 +1,3 @@
-# n=input()
-# print(n[::-1])
 def rev(x):
     if x == "":
         return ""
@@ -8,3 +6,4 @@ def rev(x):
 
 a = input()
 print(rev(a))
+
