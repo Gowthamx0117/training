@@ -117,14 +117,83 @@
 # n=list(map(int,input().split()))
 # print(*left(n))
 
-def right(a):
-    z = len(a)
-    for i in range(1):
-        last = a[-1]
-        for j in range(z - 1, 0, -1):
-            a[j] = a[j - 1]
-        a[0] = last
-    return a
+# def right(a):
+#     z = len(a)
+#     for i in range(1):
+#         last = a[-1]
+#         for j in range(z - 1, 0, -1):
+#             a[j] = a[j - 1]
+#         a[0] = last
+#     return a
 
-n=list(map(int,input().split()))
-print(*right(n))
+# n=list(map(int,input().split()))
+# print(*right(n))
+
+# def right(a,n):
+#     z = len(a)
+#     for i in range(n):
+#         last = a[-1]
+#         for j in range(z - 1, 0, -1):
+#             a[j] = a[j - 1]
+#         a[0] = last
+#     return a
+
+# n=list(map(int,input().split()))
+# m=int(input())
+# # if rotations is higher and we are getting more time complex
+# # and we need to optimize it so we need to get the mod value with
+# # the input and if we rotate that value then we will get the output
+# if m>5:
+#     m=m%len(n)
+# print(*right(n,m))
+
+# n=list(map(int,input().split()))
+# a=[]
+# b=[]
+# for i in range(len(n)):
+#     if n[i]==0:
+#         b.append(n[i])
+#     else:
+#         a.append(n[i])
+
+# a.sort()
+# c=a+b
+# print(*c)
+
+# n=list(map(int,input().split()))
+# m=list(map(int,input().split()))
+# a=[]
+# s=0
+# for i in range(len(n)):
+#     s1,s2=n[i],m[i]
+#     f=(s+s1)-s2
+#     a.append(f)
+#     s=f
+# print(max(a))
+
+# n=list(map(int,input().split()))
+# a=[]
+# for i in range(len(n),2):
+#     if i%2==0:
+#         temp=n[i]
+#         n[i]=n[i+1]
+#         n[i+1]=temp
+#         a.append((n[i],n[i+1]))
+#     else:
+#         a.append(n[i])
+# print(*a)
+
+
+# n=list(map(int,input().split()))
+# for i in range(0,len(n)-1,2):
+#     n[i],n[i+1]=n[i+1],n[i]
+# print(n)
+
+# n = int(input())
+# m = int(input())
+# c=0
+# for i in range(n, m + 1):
+#     s = str(i)
+#     if len(set(s)) == len(s):
+#         c+=1
+# print(c)
