@@ -64,7 +64,7 @@
 # if c==0:
 #     print("harsad number")
 # else:
-#     print("not harsrad number")
+#     print("not harsad number")
 
 # a=int(input())
 # b=1
