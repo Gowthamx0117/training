@@ -54,10 +54,49 @@
 # print(*perfect_numbers)
 
 
-m=int(input("Enter total no of vehicles: "))
-n=int(input("Enter no of wheels: "))
+# m=int(input("Enter total no of vehicles: "))
+# n=int(input("Enter no of wheels: "))
 
-s=(n//2)-m
-d=m-s
-print(s)
-print(d)
+# s=(n//2)-m
+# d=m-s
+# print(s)
+# print(d)
+
+
+# n=list(map(int,input().split()))
+# max=n[0]
+# for i in n:
+#     if i>max:
+#         max=i
+
+# n.remove(max)
+
+# max1=n[0]
+# for i in n:
+#     if i>max1:
+#         max1=i
+
+# print(max1)
+
+# n = input()
+# words = n.split()
+
+# longest_word = ''
+# max_length = 0
+
+# for word in words:
+#     length = 0
+#     for char in word:
+#         length += 1
+
+#     if length > max_length:
+#         max_length = length
+#         longest_word = word
+
+# if max_length > 0:
+#     print(max_length)
+#     print(longest_word)
+# else:
+#     print(0)
+#     print('')
+
