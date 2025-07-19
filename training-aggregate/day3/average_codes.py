@@ -147,4 +147,32 @@
 # n=int(input())
 # pattern(n)
 
+# Diagonal pattern
+
+# def pattern(n):
+#     for i in range(n):
+#         for j in range(n):
+#             if i==j or j==n-i-1:
+#                 print("*",end=' ')
+#             else:
+#                 print(" ",end=" ")
+#         print()
+
+
+# n=int(input())
+# pattern(n)
+
+# Leet code 66 
+
+# n=list(map(int,input().split()))
+# a=''
+# for i in n:
+#     a+=str(i)
+
+# a1=str(int(a)+1)
+# s=[]
+# for i in a1:
+#     s.append(int(i))
+# print(s)
+
 print("end")
